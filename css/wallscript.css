@@ -1,0 +1,828 @@
+#updateBoxBlock{margin:0px 15px 0px 15px;}
+.cActive{    background-color: #CDD8E8;
+    border-color: #365D98;}
+iframe{width: 100% !important}
+#cList{background-color: #ffffff; border-radius: 5px;overflow: hidden;margin-top: 40px}
+.marginZero{margin-top:0px !important;}
+#conversationHead
+{
+    font-weight: bold;
+    padding: 10px 5px 10px 5px ;
+    border-bottom: solid 1px #333333;
+}
+.navbar-subnav.navbar
+{
+margin:-15px -15px 15px;
+
+}
+.leftButton{float:left;}
+#mobileNavbar{
+    font-size: 24px;
+    margin-top: 7px;
+    position: absolute;
+    color: #112d49;display: none;
+}
+
+
+#upArrow{display: none;color: #112d49;}
+.reactionLeft{float:left !important; margin-right: 5px}
+.noConersations{text-align: center;padding: 10px}
+.listActive{background-color: #f2f2f2}
+.fa-reply{color:#4FC59C !important;}
+.photosTitle,#updateGrid{margin-bottom: 0px !important}
+.twitter
+{
+    color: #5ea9dd;
+}
+.googlePlus
+{
+    color: #dd4b39;
+}
+.instagram
+{
+    color: #6c554c;
+}
+.socialIcon{
+    font-size: 20px !important;
+}
+.updateControl
+{
+        margin-right: 60px;
+    padding-left: 26px;
+    line-height: 21px !important;
+    text-decoration: none !important;
+
+}
+.adURL{font-weight:normal !important; }
+.selectpicker{margin-top: 8px}.textSettings{margin-top: 5px}
+.verifyMessage{text-align:center;padding:100px 0px 100px 0px;}
+.commentPic,.commentPreview{height:150px !important; width: inherit !important;}
+.commentUploadBlock{margin-top: 5px;margin-bottom:5px;}
+.groupBlock a
+{
+color:#ffffff;
+}
+.galcolumn
+{text-align: left}
+
+body
+{
+background-color:#e9eaed !important;
+}
+.panel-default
+{
+border:1px solid #d6d7da !important;
+}
+.whiteBar
+{
+background-color:#ffffff;
+border-bottom:1px solid #d6d7da !important
+}
+.whiteBar li
+{
+border-right:1px solid #d6d7da !important;
+height:50px;
+
+}
+.whiteBar li a
+{
+color:#3b5998 !important;
+}
+.panel-heading
+{
+background-color:#ffffff !important;
+color:#333333 !important;
+}
+.panel-heading a
+{
+color:#3b5998;
+}
+.feed-author
+{
+color:#3b5998 !important;
+text-transform: capitalize;
+font-size:18px;
+}
+.alignCeter{text-align: center;}
+.panel-heading .smallFace
+{
+
+margin:10px 0px 10px 10px !important;
+}
+.panel-heading .media-body
+{
+margin-top:10px !important;
+}
+.smallFace
+{
+width:50px !important;
+height: 50px !important;
+border-radius: 8% !important;
+}
+.searchFace
+{
+width:40px !important;
+height:40px !important;
+border-radius: 8% !important;
+height: 40px;
+margin:10px 0px 10px 10px !important;
+}
+.conversationFace
+{
+   width:50px !important;
+height:50px !important;
+border-radius: 8% !important;
+height: 40px;
+margin:10px 0px 0px 10px !important; 
+}
+.timeline-added-images img
+{
+width:80px !important
+}
+.panel-body .img-circle
+{
+width:38px !important;
+height:38px !important;
+}
+.avatar
+{
+width:116px !important;
+}
+
+.icontext {
+height: 14px;
+
+margin-right: 20px;
+text-transform: capitalize;
+}
+.st_like_share {
+font-size: 14px;
+display: block;
+padding: 10px;
+border-top: 1px solid #d6d7da;
+background-color:#F6F7F8; 
+color: #ccc;
+}
+
+.st_like_share a {
+color: #666666  !important;
+text-decoration: none;
+
+}
+.likeOld {
+background: url('../wall_icons/wallicons.png') no-repeat -5px -22px;
+height: 13px;
+}
+.commentopenOld {
+background: url('../wall_icons/wallicons.png') no-repeat -6px -44px;
+height: 13px;
+}
+.sharebuttonOld {
+background: url('../wall_icons/wallicons.png') no-repeat -5px -1px;
+height: 13px;
+}
+
+#photo {
+background: url('../wall_icons/wallicons.png') no-repeat -5px -69px;
+width: 24px;
+height: 24px;
+float: left;
+margin-top:10px;
+}
+#webcamButton {
+background: url('../wall_icons/wallicons.png') no-repeat -37px -68px;
+width: 24px;
+height: 24px;
+float: left;
+margin-left: 8px;margin-top:10px;
+}
+#mic {
+background: url('../wall_icons/wallicons.png') no-repeat -38px -303px;
+width: 24px;
+height: 24px;
+float: left;
+margin-left: 8px;margin-top:10px;
+}
+#geo {
+background: url('../wall_icons/wallicons.png') no-repeat -10px -302px;
+width: 24px;
+height: 24px;
+float: left;
+margin-left: 8px;margin-top:10px;
+}
+#verified {
+    float: right;
+    margin-top: -48px;
+    background: url('../wall_icons/wallicons.png') no-repeat -3px -94px;
+    width: 24px;
+    height: 23px;
+}
+.wallbutton {
+font-weight: bold;
+padding: 7px 9px;
+background-color: #5fcf80;
+color: #fff !important;
+font-size: 12px;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+cursor: pointer;
+text-decoration: none;
+text-shadow: 0 1px 0px rgba(0,0,0,0.15);
+border-width: 1px 1px 3px !important;
+border-style: solid;
+border-color: #3ac162;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+display: -moz-inline-stack;
+display: inline-block;
+vertical-align: middle;
+zoom: 1;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-ms-border-radius: 3px;
+-o-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+-webkit-box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+-moz-box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+text-decoration:none !important;
+}
+.shareUser
+{
+margin-right:10px
+}
+.wall-share
+{
+padding:10px;
+border-bottom:1px solid #d6d7da
+}
+.wall-share a
+{
+	font-weight: bold;
+	color:#333333 !important;
+	text-decoration: none;
+}
+.wall-share a:hover
+{
+	
+	color:#3b5998 !important;
+	text-decoration: none;
+}
+.padding10
+{
+padding:10px
+}
+.margintop10
+{
+margin-top:10px
+}
+.marginbottom10
+{
+margin-bottom:10px
+}
+.clear{clear:both}
+.displaynone{display:none}
+.icon{width:16px !important}
+.timeline-block{clear:both;height:auto}
+.messageImg{margin-top:0px;border-radius: 8%;}
+.removeButton, .redButton {
+background-color: #E06666;
+border-color: #C95151;
+}
+.sFace
+{
+width:48px;height:48px;margin-right:4px;
+}
+
+.photosBlock,.geoDivBlock{padding-top: 10px}
+.inline{display:inline !important;}
+.media-body a
+{
+text-transform: capitalize;
+}
+.feedContent, .commentContent
+{
+word-wrap: break-word;
+
+}
+.feedContent a, .commentContent a
+{
+color:#3b5998 !important;
+text-transform:lowercase;
+}
+.smallCommentFace{width:38px !important; height:38px !important;}
+.comment-author, .feed-author
+{
+	text-decoration: none !important;
+}
+.commentBox{border-top:none !important;}
+
+.new{width:100% !important; height: 300px !important}
+.load{text-align:center;}
+
+.commonDelete {
+  float: right;
+  cursor: pointer;
+  background: url('../wall_icons/wallicons.png') no-repeat -9px -125px;
+  margin-right:5px;
+  height: 14px;
+  width: 14px;
+  display: none !important;
+}
+
+.newsFeed-block:hover .feedDelete{
+display : block !important;
+}
+.comment-body:hover .commentDelete{
+display : block !important;	
+}
+
+.conversation-body:hover .conversationDelete{
+display : block !important; 
+}
+
+#you{padding: 8px;
+  font-weight: bold;}
+.marginLess{margin-top:-15px !important;}
+.marginRight{margin-right:5px}
+#cover{height:300px; background-color:#232937; }
+.timeago{display:block;color: #999999 !important; font-size: 12px !important; font-weight: normal !important; text-transform: lowercase !important;}
+.rightButton
+{
+  float:right;
+  margin-top:8px;
+}
+.likesList
+{
+  border-top:1px solid #f2f2f2;
+}
+.geoDivBlock{margin-top:-10px;clear:both;}
+.notificationContent a{font-weight: normal !important}
+.preview {
+    max-width: 200px !important;
+    height: 100px !important;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+#geoContainerDiv{padding:10px;}
+#geoImage{width:300px !important;}
+.height550{height: 627px} .height500{height: 500px}
+#wallBar{
+  background-color: #112d49;
+}
+.messageImg{width:60px; height: 60px}
+.messageText{padding: 0px !important}
+
+.imageDelete {
+    position: absolute;
+    margin-left: 2px;
+    height: 24px;
+    width: 24px;
+    margin-top: 2px;
+    opacity: 0.5;
+    cursor: pointer;
+    display: block;
+    background: url('../wall_icons/wallicons.png') #ffffff no-repeat -36px -94px;
+}
+.imageDelete:hover
+{
+opacity: 1;
+}
+.countNumber{color:#999999;}
+#searchBarMain{margin-left: 20px;
+margin-top: 10px; position: relative;float: left}
+.search{border-radius: 5px;width: 280px;
+
+padding: 2px 6px 2px 28px;
+resize: none;
+width: 270px;
+background: url('../wall_icons/wallicons.png') #ffffff no-repeat -164px -187px;
+background-position: -163px;}
+.messageButton {
+background-color: #4285f4;
+border-color: #2f69c2;
+}
+.error{font-size: 12px;font-weight: normal;color: #e82110}
+.avatar{width: 116px !important; height: 116px !important}
+.groupJoin{float: right;padding: 10px}
+.marginRight10{margin-right: 10px}
+.marginTop9{margin-top: 8px}
+.errorInput{border: solid 1px #e82110 !important}
+.successInput{border: solid 1px #008800 !important}
+#searchDisplay {
+    background-color: #fff;
+    border: 1px solid #d6d7da;
+    -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+    overflow: visible;
+    position: absolute;
+   
+    width: 270px;
+    z-index: 999;
+    display: none;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    
+}
+
+.normalFont{font-weight: normal !important;}
+#creatGroupLink{font-size: 13px;font-weight: normal;float: right;}
+.login-body label{display: block;}
+.popupBlock{border-bottom: solid 1px #efefef; text-decoration: none !important;border-radius: 6px}
+.popupBlock:hover{background-color: #f2f2f2}
+#notificationContainer {
+    background-color: #fff;
+    border: 1px solid rgba(100, 100, 100, .4);
+    -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+    overflow: visible;
+    position: absolute;
+    top: 30px;
+    margin-left: -190px;
+    width: 400px;
+    z-index: 999;
+  
+}
+
+.numberCount {
+    padding: 3px 8px 3px 8px;
+    background: #e82110;
+    color: #ffffff;
+    font-weight: bold;
+    float:right;
+    border-radius: 50%;
+       margin-right: -22px;
+    margin-top: -13px;
+    font-size: 11px;display: none;line-height: 16px;
+}
+
+.relative{position: relative;}
+#notificationContainer a
+{
+text-shadow:none !important;
+}
+
+#notification_box{position:relative}
+#notificationContainer
+{
+background-color: #fff;
+border: 1px solid rgba(100, 100, 100, .4);
+-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+overflow: visible;
+position: absolute;
+    top: 52px;
+    margin-left: -139px;
+width: 400px;
+z-index: 999;
+display: none;
+
+}
+
+#notificationContainer:before{
+content:'';
+display: block;
+position: absolute;
+width: 0;
+height: 0;
+color: transparent;
+border: 10px solid black;
+border-color: transparent transparent white;
+margin-top: -20px;
+margin-left: 188px;
+}
+
+#notificationTitle {
+    z-index: 1000;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 13px;
+    background-color: #ffffff;
+   
+    border-bottom: 1px solid #dddddd;
+}
+#notificationFooter {
+    background-color: #e9eaed;
+    text-align: center;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 12px;
+    border-top: 1px solid #dddddd;
+}
+.media-body-popup{margin:8px;text-decoration: none}
+.nBlock:hover{background-color: #f2f2f2}
+.img_container {
+    text-align: center;
+    background-color: #333;
+    line-height: 0px;
+    margin: 10px 0px 0px 0px;
+    
+    max-height: 330px;
+    overflow: hidden;margin-top:-10px;
+}
+.uploadFile input {
+    filter: alpha(opacity=0);
+    opacity: 0;
+    
+}
+.custom-file-input {
+    height: 25px;
+    cursor: pointer;
+}
+.uploadFile {
+    background: url('../wall_icons/whitecam.png') no-repeat;
+    height: 32px;
+    width: 32px;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 999
+}
+.timelineUploadBG {
+    position: absolute;
+    margin: 10px 0px 0px 10px;
+    height: 32px;
+    width: 32px;
+}
+
+#coverBox{z-index: 700; height: 300px;overflow: hidden;position: relative;}
+.headerimage {
+    cursor: s-resize;
+    position: absolute;
+}
+
+.bgSave {
+   position: absolute;
+    margin-top: 197px;
+    margin-left: 90%;
+    z-index: 4000;
+}
+.timelineUploadImg {
+ position: absolute;
+    margin-top: 118px;
+    margin-left: 31px;
+    height: 32px;
+    width: 32px;
+}
+#timelineProfilePic {
+    position: relative;
+    z-index: 1000;
+    overflow: hidden;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.profilePic{width:150px; height:150px ;border-radius: 6%;}
+
+.adBlock{margin-bottom:15px}
+.adTitle{margin-top:8px}
+.adImg img{width: 100%}
+.adDesc{color: #666666}
+
+#profilePicImage{overflow: hidden;max-height: 150px}
+.links
+{
+    color: #3b5998 !important;
+    line-height: 40px;
+    font-weight: bold
+}
+.marginLeft{margin-left: 50px;}
+#webcam{width:30%;float:left}
+#webcam_preview{width:62%;float:right}
+.webcam_preview{float: left;
+    width: 28%; margin-left: 10px;margin-bottom: 10px;}
+.imgpreview{width: 100%}
+.suggestedPanel{margin:8px 0px 0px 10px}
+.suggestedPanel a{font-weight: bold}
+.login-body{min-height: 190px;box-shadow: rgba(200,200,200,0.7) 0 4px 10px -1px;}
+.login-body label{margin-top:20px; }
+.forgot-password{margin-top:10px;display: block; }
+
+.box-body{margin-top:15px;}
+.showSidebar{display: block !important;z-index: 9999}
+
+.fa-heart:hover,.likeColor{color:#e2264d}
+.fa-share:hover,.shareColor{color:#269AE2}
+.fa-comment:hover,.commentColor{color:#006699}
+
+.commentButton{padding: 4px 7px !important}
+
+.input {
+    border: 1px solid #999999;
+    background: #fbfbfb;
+    box-shadow: inset 1px 1px 2px rgba(200,200,200,0.2);
+}
+input[type="text"], input[type="password"] {
+    border: solid 1px #BDC7D8;
+    
+}
+.login-body input[type="submit"]{
+ margin-top: 20px;
+    
+}
+.category
+{
+    display: block;
+    font-weight: 600;
+    font-size: 18px;
+    color: #365D98;
+
+    
+}
+.commentUpload{padding:10px;display: none;}
+#logo{max-width:218px ; max-height: 40px;border-radius: 20px;}
+#topMenu > li >a{
+    padding: 15px 15px 10px 5px !important;
+ height: 56px !important;
+}
+.bold{font-weight: bold}
+.forgot{min-height: 150px !important}
+.blockCenter{margin: 0 auto; width: 300px;height: 300px}
+#terms{font-size: 11px;margin-top: 10px}
+.labelURL{color: #999999}
+#profileName{margin-top:-8px; 
+    }
+#facebookSettingsLabel{color:#3a5795}
+#twitterSettingsLabel{color:#61aadb}
+#googleSettingsLabel{color:#008800}
+#instagramSettingsLabel{color:#004879}
+.loginContent{margin-top: 110px !important}
+.sessionProfilePic{width:40px; height: 40px}
+.conversationPreview{float: left; height: 100px !important;}
+
+img{border: none !important}
+
+.effectSwing {
+    animation: swing 1s infinite;
+    -webkit-animation: swing 1s infinite;
+}
+
+.effectTada
+{
+animation:tada 1s infinite;
+-webkit-animation:tada 1s infinite; /* Safari and Chrome */
+}
+.vine-embed{height: 467px !important}
+.fa{cursor: pointer;}
+.updateControl span{display: inline;}
+#conversationBox{bottom:0;}
+#conversationReplies .photosBlock{clear: both}
+#notificationsLinkMobile{display: none}
+#searchIcon{float: right;color: #ffffff;font-size:24px;margin-top: 15px;display: none; }
+.commentCamIcon{font-size: 20px}
+
+.font24{font-size:24px;}
+.noDataMessage{text-align: left;font-size: 20px;font-weight: bold; color:#333333;text-align:center;margin-bottom:20px;}
+.noPadding{margin-bottom:0px !important;}
+.panel , .borderRound{
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 4px;
+}
+.sFace{
+border-radius:8% !important;
+-webkit-border-radius:8% !important;
+-moz-border-radius:8% !important;
+}
+.conversationReplyBlock{
+clear:both;margin-bottom:10px
+}
+#conversationReply, .panel-heading,.borderRoundTop{
+border-top-left-radius:5px;
+-moz-border-top-left-radius:5px;
+-webkit-border-top-left-radius:5px;
+
+border-top-right-radius:5px;
+-moz-border-top-right-radius:5px;
+-webkit-border-top-right-radius:5px;
+}
+.panel-footer, .borderRoundBottom{
+border-bottom-left-radius:5px;
+-moz-border-bottom-left-radius:5px;
+-webkit-border-bottom-left-radius:5px;
+
+border-bottom-right-radius:5px;
+-moz-border-bottom-right-radius:5px;
+-webkit-border-bottom-right-radius:5px;
+}
+#error404{
+text-align:center;padding-top:100px;
+}
+#noSeachResults{padding:5px}
+.conversationListFace{width:65px;height: 65px}
+
+
+.likeType {
+background-image: url('../wall_icons/like_types.png');
+background-size: 100%;
+display: block;
+height: 40px;
+image-rendering: crisp-edges;
+line-height: 1;
+width: 40px;
+cursor: pointer;
+}
+.likeTypeSmall {
+background-image: url('../wall_icons/like_types.png');
+background-size: 100%;
+float: right;
+height: 20px;
+image-rendering: crisp-edges;
+line-height: 1;
+width: 20px;
+cursor: pointer;
+}
+
+
+.angryIcon {
+background-position: 0px 0px;
+}
+.confusedIcon {
+background-position: 0px -40px;
+}
+.hahaIcon {
+background-position: 0px -80px;
+}
+.likeIcon {
+background-position: 0px -120px
+}
+.loveIcon {
+background-position:0px -160px;
+}
+.sadIcon {
+background-position: 0px -200px;
+}
+.wowIcon {
+background-position: 0px -240px;
+}
+.coolIcon {
+background-position: 0px -280px;
+}
+
+
+
+.angryIconSmall {
+background-position: 0px 0px;
+}
+.confusedIconSmall {
+background-position: 0px 140px;
+}
+.hahaIconSmall {
+background-position: 0px 120px;
+}
+.likeIconSmall {
+background-position: 0px 100px
+}
+.loveIconSmall {
+background-position:0px 80px;
+}
+.sadIconSmall {
+background-position: 0px 60px;
+}
+.wowIconSmall {
+background-position: 0px 40px;
+}
+
+.coolIconSmall {
+background-position: 0px 20px;
+}
+
+.likeTypeAction{float: left; margin-right: 8px; cursor: pointer;}
+.last{margin-right:0px !important;}
+.likeDiv{padding:5px; border: solid 1px #dedede;height: auto; min-height: 40px;width: 390px;border-radius: 30px;background-color: #ffffff}
+
+
+@media only screen and (max-width: 1024px){
+.topMenuName{display:none}
+}
+@media only screen and (max-width: 570px){
+.topMenuName{display:inline}
+}
+@media only screen and (max-width:401px){
+    #newsFeed{ padding:0px 15px 0px 15px }
+}
+@media only screen and (max-width: 770px) {
+    .item {width: 100%;}
+    #logo{width: 160px;margin-top:6px;}
+    .updateControl span{display: none;width: 0px}
+    .updateControl{margin-right: 14px}
+    .navbarLinks{display: none}
+    #mobileNavbar{display: block }
+    .whiteBar{padding-bottom: 10px}
+    #cover{height: 180px}
+    body.login #content{width: 100%}
+    .profilePic{width: 90px; height: 90px}
+    #searchDisplay{width: 240px}
+    #searchDesk{width: 190px;}
+    #searchBarMain{display: none}
+    .height500{height:280px}
+    #conversationBox{bottom: 0px;position: fixed;width: 90%}
+    #notificationsLinkMobile{display: inline;display: block}
+    #notificationsLink{display: none; }
+    #searchIcon{display: inline;}
+    .nav > li{padding:0px 10px 0px 10px;}
+    #webcamButton{display: none}
+    .sidebar-block .profile h4{font-size: 20px}
+    .navbar-brand{padding: 5px 10px 0px 5px !important}
+    .conversationListFace{width:50px !important;height: 50px !important}
+}
+

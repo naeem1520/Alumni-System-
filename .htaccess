@@ -1,0 +1,49 @@
+Options +Indexes +FollowSymLinks -MultiViews
+Options +FollowSymlinks
+
+RewriteEngine On
+
+#RewriteBase /wallscript/
+
+RewriteRule ^([a-zA-Z0-9_-]+)$ profile.php?public_username=$1
+RewriteRule ^([a-zA-Z0-9_-]+)/$ profile.php?public_username=$1
+
+RewriteRule ^status/([0-9]+)$ status.php?msgID=$1
+RewriteRule ^status/([0-9]+)/$ status.php?msgID=$1
+
+RewriteRule ^messages/([a-zA-Z0-9_-]+)$ messages.php?message_username=$1
+RewriteRule ^messages/([a-zA-Z0-9_-]+)/$ messages.php?message_username=$1
+
+RewriteRule ^friends/([a-zA-Z0-9_-]+)$ friends.php?username=$1
+RewriteRule ^friends/([a-zA-Z0-9_-]+)/$ friends.php?username=$1
+
+RewriteRule ^followers/([a-zA-Z0-9_-]+)$ followers.php?username=$1
+RewriteRule ^followers/([a-zA-Z0-9_-]+)/$ followers.php?username=$1
+
+
+RewriteRule ^views/([a-zA-Z0-9_-]+)$ views.php?username=$1
+RewriteRule ^views/([a-zA-Z0-9_-]+)/$ views.php?username=$1
+
+RewriteRule ^groups/([a-zA-Z0-9_-]+)$ groups.php?username=$1
+RewriteRule ^groups/([a-zA-Z0-9_-]+)/$ groups.php?username=$1
+
+RewriteRule ^group/([0-9]+)$ group.php?groupID=$1
+RewriteRule ^group/([0-9]+)/$ group.php?groupID=$1
+
+RewriteRule ^group/([0-9]+)/([a-zA-Z0-9_-]+)$ groupDetails.php?groupID=$1&track=$2
+RewriteRule ^group/([0-9]+)/([a-zA-Z0-9_-]+)/$ groupDetails.php?groupID=$1&track=$2
+
+RewriteRule ^photos/([a-zA-Z0-9_-]+)$ photos.php?username=$1
+RewriteRule ^photos/([a-zA-Z0-9_-]+)/$ photos.php?username=$1
+
+RewriteRule ^photos_of/([a-zA-Z0-9_-]+)$ photos.php?photos_of=1&username=$1
+RewriteRule ^photos_of/([a-zA-Z0-9_-]+)/$ photos.php?photos_of=1&username=$1
+
+RewriteRule ^editGroup/([0-9]+)$ editGroup.php?editGroupID=$1
+RewriteRule ^editGroup/([0-9]+)/$ editGroup.php?editGroupID=$1
+
+RewriteRule ^resetPassword/([a-zA-Z0-9_-]+)$ resetPassword.php?code=$1
+RewriteRule ^resetPassword/([a-zA-Z0-9_-]+)/$ resetPassword.php?code=$1
+
+RewriteRule ^verify/([a-zA-Z0-9_-]+)$ verify.php?code=$1
+RewriteRule ^verify/([a-zA-Z0-9_-]+)/$ verify.php?code=$1
